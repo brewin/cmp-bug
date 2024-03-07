@@ -32,7 +32,7 @@ kotlin {
         }
         pod(
             name = "MapLibre",
-            version = "6.1.1",
+            version = "6.2.0",
             moduleName = "MapLibre"
         )
     }

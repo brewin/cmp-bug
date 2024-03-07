@@ -1,0 +1,23 @@
+PODS:
+  - MapLibre (6.1.1)
+  - shared (1.0):
+    - MapLibre (= 6.1.1)
+
+DEPENDENCIES:
+  - shared (from `../shared`)
+
+SPEC REPOS:
+  trunk:
+    - MapLibre
+
+EXTERNAL SOURCES:
+  shared:
+    :path: "../shared"
+
+SPEC CHECKSUMS:
+  MapLibre: 1d91f88b9c5c77962c1a716269aad055e54bb1e4
+  shared: 56863f683edca3ea801cb9aace927d5bf2af5257
+
+PODFILE CHECKSUM: 0ecce755e8c6edfe73d96f8a77fa28e474f3940e
+
+COCOAPODS: 1.15.2

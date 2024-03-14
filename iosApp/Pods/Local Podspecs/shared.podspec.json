@@ -13,11 +13,6 @@
   "platforms": {
     "ios": "16.0"
   },
-  "dependencies": {
-    "MapLibre": [
-      "6.2.0"
-    ]
-  },
   "pod_target_xcconfig": {
     "KOTLIN_PROJECT_PATH": ":shared",
     "PRODUCT_MODULE_NAME": "shared"

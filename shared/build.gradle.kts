@@ -30,18 +30,13 @@ kotlin {
             isStatic = true
             optimized = false
         }
-        pod(
-            name = "MapLibre",
-            version = "6.2.0",
-            moduleName = "MapLibre"
-        )
     }
     sourceSets {
         val commonMain by getting {
             dependencies {
                 implementation(compose.runtime)
                 implementation(compose.foundation)
-                implementation(compose.material)
+                implementation(compose.material3)
                 @OptIn(org.jetbrains.compose.ExperimentalComposeLibrary::class)
                 implementation(compose.components.resources)
             }

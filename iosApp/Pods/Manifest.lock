@@ -1,22 +1,15 @@
 PODS:
-  - MapLibre (6.2.0)
-  - shared (1.0):
-    - MapLibre (= 6.2.0)
+  - shared (1.0)
 
 DEPENDENCIES:
   - shared (from `../shared`)
-
-SPEC REPOS:
-  trunk:
-    - MapLibre
 
 EXTERNAL SOURCES:
   shared:
     :path: "../shared"
 
 SPEC CHECKSUMS:
-  MapLibre: e596bf944effff789151eb80513d0f321d37dd1f
-  shared: f37113c96598c3241beecc2423e81ea66c50e1a1
+  shared: 1e376b5b1910ebd8d1cfd719e5d607bb83546759
 
 PODFILE CHECKSUM: 0ecce755e8c6edfe73d96f8a77fa28e474f3940e
 

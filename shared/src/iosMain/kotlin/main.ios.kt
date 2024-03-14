@@ -23,6 +23,7 @@ import platform.UIKit.UIView
 
 actual fun getPlatformName(): String = "iOS"
 
+// Should show a red square in the top bar, but square is invisible.
 @OptIn(ExperimentalForeignApi::class)
 fun MainViewController() = ComposeUIViewController {
     Scaffold(
@@ -39,7 +40,7 @@ fun MainViewController() = ComposeUIViewController {
     )
 }
 
-// It works when using a Box instead of a Scaffold.
+// It does show when using a Box instead of a Scaffold.
 @OptIn(ExperimentalForeignApi::class)
 fun MainViewController2() = ComposeUIViewController {
     Box {
